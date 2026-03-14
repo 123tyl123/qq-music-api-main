@@ -1,0 +1,1 @@
+import{_ as n,c as o,e as r,o as s}from"./index-DIIEe0n4.js";const t={};function c(a,e){return s(),o("div",null,[...e[0]||(e[0]=[r("h1",null,"我的音乐",-1)])])}const _=n(t,[["render",c]]);export{_ as default};
