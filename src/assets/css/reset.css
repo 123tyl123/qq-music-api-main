@@ -1,0 +1,34 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; /* 统一盒模型 */
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+line-height: 1.6; /* 合理行高 */
+color: #333; /* 基础文本色 */
+background-color: #fff; /* 基础背景色 */
+}
+
+ul, ol {
+list-style: none; /* 清除列表默认样式 */
+}
+
+a {
+text-decoration: none; /* 清除链接下划线 */
+color: inherit; /* 继承父级文本色 */
+}
+
+img {
+max-width: 100%; /* 图片响应式 */
+height: auto; /* 保持宽高比 */
+vertical-align: middle; /* 解决图片底部间隙 */
+}
+
+input, button, textarea, select {
+font-family: inherit; /* 继承父级字体 */
+font-size: inherit; /* 继承父级字号 */
+outline: none; /* 清除默认焦点轮廓（可根据需求保留） */
+}
